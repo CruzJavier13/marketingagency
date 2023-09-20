@@ -6,12 +6,11 @@ import Layout from "../../hocs/layouts/Layout.jsx";
 function Home(){
     return (
         <Layout>
+            <Footer/>
+            <main className="container mx-auto p-4 ">
+                {/* Contenido de la aplicación */}
+            </main>
             <Navbar/>
-                <div className="pt-28 bg-blue-500 text-white p-4">
-                    Home
-                    
-                </div>
-                <Footer/>
         </Layout>
     )
 }
